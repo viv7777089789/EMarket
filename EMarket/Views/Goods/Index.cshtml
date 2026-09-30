@@ -1,0 +1,11 @@
+﻿@model List<EMarket.Models.Category>
+
+<h1>Товары</h1>
+<h2>Список категорий</h2>
+
+<ul>
+@foreach (var item in Model)
+{
+    <li>@item.Name</li>
+}
+</ul>
